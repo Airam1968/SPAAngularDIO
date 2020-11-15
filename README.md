@@ -1,27 +1,39 @@
 # Spadio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+Projeto gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 10.2.0.
 
-## Development server
+Desafio SPA com Angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1 - Crie uma aplicação com Angular (Não esqueça que todo código precisa estar no GitHub). - ok
+2 - Crie no mínimo 3 componentes que deverão estar interagindo na mesma página (Não esqueça das rotas).
+3 - Escolha no mínimo 4 componentes do Angular Material e incorpore na sua aplicação.
+4 - Crie em uma das páginas uma interação através da interpolação e/ou utillizando Property Biding.
+5 - Crie uma explicação sobre o que foi feito, esta explicação será inserida na plataforma junto com o link para o código no GitHub.
+6 - Você poderá criar um vídeo demonstrativo da aplicação construida, e publica-lo no YouTube, passando o link de acesso na plataforma. Este passo 6, não é obrigatório, mas entrará como um diferencial.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+----------------- Node e Angular
+Instalação do Node (https://nodejs.org/en/)
+node -v (versão instalada node)
+npn install -g @angular/cli (Instalar Angular Globalmente na maquina)
+ng v (versão instalada Angular)
+-----------------
+----------------- Criar Projeto
+Abrir Terminal
+abrir pasta do projeto
 
-## Build
+ng new spadio --prefix=spa (Intalar novo projeto)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+ng serve –o (abrir o servidor do projeto e o navegador, com rebuild)
+------------------
+------------------ Angular Material
+ng add @angular/material
 
-## Running unit tests
+- Indigo/pink
+- Typografy yes
+- Animations yes
+------------------
+------------------ Criar Componente
+ng g c home
+<home> é no nome do componentes
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
